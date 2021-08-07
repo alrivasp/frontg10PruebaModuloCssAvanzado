@@ -1,0 +1,10 @@
+@mixin image-responsive{
+    width: 100%;
+    height: auto;
+}
+
+@mixin item-article{
+    padding: 0.5vw;
+    border: 3px solid paleturquoise;
+    margin-bottom: 2%;
+}

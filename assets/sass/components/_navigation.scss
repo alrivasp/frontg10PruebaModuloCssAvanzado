@@ -1,0 +1,111 @@
+.navigation{
+    font-family: $ubuntu !important;
+    &__logo{
+        width: 5vw;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    &__menu-icon:hover{
+        color: $orange;
+    }
+
+    &__menu-icon{
+        
+        color: $white;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .navigation{
+        &__logo{
+            width: 5vw;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+    
+        &__menu-icon:hover{
+            color: $orange;
+        }
+    
+        &__menu-icon{
+            
+            color: $white;
+            font-size: 5vw;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navigation{
+        &__logo{
+            width: 5vw;
+            height: auto;
+            margin-left: 2%;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+        }
+    }
+
+    .nav-link{
+        font-weight: $bold !important;
+    }
+
+    .navigation__ul {
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navigation{
+        &__logo{
+            width: 5vw;
+            height: auto;
+            margin-left: 2%;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+        }
+    }
+
+    .nav-link{
+        font-weight: $bold !important;
+    }
+
+    .navigation__ul {
+        padding-right: 5%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .navigation{
+        &__logo{
+            width: 60px;
+            height: auto;
+            margin-left: 2%;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+        }
+    }
+
+    .nav-link{
+        font-weight: $bold !important;
+    }
+
+    .navigation__ul {
+        padding-right: 5%;
+    }
+}
+
+.bg-dark{
+    background-color: $black !important;
+}
+
+.navbar-toggler{
+    color: $black !important;
+    border: 0px solid transparent !important;
+    padding-right: 5% !important;
+}
